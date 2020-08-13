@@ -15,18 +15,21 @@ class Item{
 }
 
 class Store{
-  @persist('list', Item) @observable fruits=[];
+  @persist('list', Item) @observable FsfTeachers=[];
   constructor(){
-    this.fruits.push(new Item('Banana'));
-    this.fruits.push(new Item('Orange'));
-    //create({})('store', this).then(()=>console.log('hydrated'))
+    this.fsfTeachers.push(new Item('Kyle'));
+    this.fsfTeachers.push(new Item('Chad'));
+    this.fsfTeachers.push(new Item('Dave'));
+    //create({})('store', this).then(()=>console.log(''))
+  
+  if(err) 
+  console.log('No Rules!!!!!!');
   }
-
   add(value){    
-    this.fruits.push(new Item(value));
+    this.fsfTeachers.push(new Item(value));
   }  
   remove(item){
-    this.fruits=this.fruits.filter(_=>_!==item);
+    this.fsfTeachers=this.fsfTeachers.filter(_=>_!==item);
   }
   
 }
