@@ -1,0 +1,12 @@
+h1, p {
+  font-family: Lato;
+}
+
+li{
+  color: white;
+  background-color: steelblue;
+  border: solid 1px skyblue;
+  margin-bottom: 4px;
+  padding: 4px;
+ 
+}
